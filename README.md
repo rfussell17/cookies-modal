@@ -1,14 +1,12 @@
 ## Cookies Modal
 
-
+<br>
 
  <img src="images/thumb.png">
 
 <br>
 
 <img src="images/thumb2.png"   title="hotel">
-
-<br></br>
 
 <br>
 
