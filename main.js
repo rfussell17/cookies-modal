@@ -1,6 +1,7 @@
+var modal = document.getElementById("modal")
 
 var close = document.getElementById("closeBtn").addEventListener("click", function(){
-  document.getElementById("modal").style.display = "none";
+  modal.style.display = "none";
   document.getElementById("overlay").style.display = "block";
 })
 
