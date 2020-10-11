@@ -10,20 +10,33 @@
   <body>
 
     <!-- Navbar start-->
-    <div class="topnav">
-      <h1><span id="mike">Mike's</span>Bikes</h1>
-      <a href="#news">News</a>
-      <a href="#contact">Contact</a>
-      <a href="#about">About</a>
-      <a class="active" href="#home">Home</a>
-    </div>
-    <!-- Navbar end-->
 
+    <!-- Navbar end-->
     <!-- image-->
     <img src="images/bike6.jpg" alt="Forest" style="width: 100%" />
 
         <!--Modal start-->
         <div id="overlay">
+          <div class="topnav">
+            <h1><span id="mike">Mike's</span>Bikes</h1>
+            <form action="/action_page.php">
+              <input id="usernameInput" type="text" placeholder="search..." name="name">
+            </form>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+            <a class="active" href="#home">Home</a>
+          </div>
+          <ul id="results">
+            <li a href="#" class="name">X1</li> <span class="divide"> | </span> 
+            <li class="name">JS22</li>  <span class="divide"> | </span> 
+            <li class="name">JS200x</li>  <span class="divide"> | </span> 
+            <li class="name">X2</li>  <span class="divide"> | </span> 
+            <li class="name">X3</li>  <span class="divide"> | </span> 
+            <li class="name">JSX</li>  <span class="divide"> | </span> 
+            <li class="name">JSX2</li>  <span class="divide"> | </span> 
+            <li class="name">Nightmare</li>  <span class="divide">
+        </ul>
           <div id="modal">
             <h3>This website uses cookies</h3>
             <p>
@@ -35,6 +48,8 @@
               <button id="closeBtn">Close</button>
             </div>
           </div>
+
+          
           <!--Modal end-->
     <script src="main.js"></script>
   </body>
