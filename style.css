@@ -2,8 +2,10 @@
 
 body {
   margin: 0 auto;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   text-align: center;
+  background-size: 100%;
+  background-color: #333;
 }
 
 /*nav*/
@@ -13,21 +15,20 @@ h1 {
   padding: 5px 25px;
   margin: 0 auto;
   font-size: 40px;
-  background-color:  #4CAF50;
+  background-color: #4caf50;
   font-weight: 900;
-  color:#333;
+  color: #333;
 }
 
 #mike {
   font-weight: 900;
-  color: #000
+  color: #000;
 }
 
 .topnav {
   background-color: #333;
   overflow: hidden;
 }
-
 
 .topnav a {
   float: right;
@@ -43,17 +44,18 @@ h1 {
   color: black;
 }
 .topnav a.active {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
 }
 
 /*btns*/
 
-#acceptBtn, #closeBtn {
+#acceptBtn,
+#closeBtn {
   cursor: pointer;
   background-color: #555;
   font-weight: bold;
-  color:#000;
+  color: #000;
 }
 
 .row::after {
@@ -64,7 +66,7 @@ h1 {
 
 #modal {
   background-color: #444;
-  color:#4CAF50;
+  color: #4caf50;
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
