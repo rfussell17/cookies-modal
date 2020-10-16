@@ -16,15 +16,15 @@ var accept = document
 
   document.getElementById("usernameInput").addEventListener("keyup", function(event) {
     let searchQuery = event.target.value.toLowerCase();
-    let allNamesDOMCollection = document.getElementsByClassName('name');
+    let bikeModels = document.getElementsByClassName('name');
     
-    for(let i = 0; i < allNamesDOMCollection.length; i++) {
-      const currentName = allNamesDOMCollection[i].textContent.toLowerCase();
+    for(let i = 0; i < bikeModels.length; i++) {
+      const currentName = bikeModels[i].textContent.toLowerCase();
   
       if (currentName.includes(searchQuery)) {
-        allNamesDOMCollection[i].style.display = "inline-block";
+        bikeModels[i].style.display = "inline-block";
     } else {
-        allNamesDOMCollection[i].style.display = "none";
+        bikeModels[i].style.display = "none";
     }
   }
 
