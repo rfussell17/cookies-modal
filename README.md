@@ -44,7 +44,7 @@ The user can also view the bike models via the "2020 models" button in the cente
 
 <br>
 
-This is one of a few modal related mini projects that I've been using to get practice in between portfolio projects to keep sharp with the basics.
+This is one of a few modal related mini projects that I've been using to get practice in between portfolio projects to keep sharp with the vanilla basics.
 
 
 **Author**
